@@ -15,3 +15,6 @@ use swiggy_db;
 
 create database blinkit_db;
 use blinkit_db;
+
+use amazon_db;
+
