@@ -1,1 +1,0 @@
-create table Finace_info;
