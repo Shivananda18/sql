@@ -5,9 +5,9 @@ use zomato_db;
 create table mcDonaldsitems(
 id int auto_increment primary key,
 item_name varchar(100),
-price double,
-mobileNumber varchar(10),
-address varchar(150)
+price double ,
+mobileNumber varchar(10) ,
+address varchar(150) 
 );
 
 insert into mcDonaldsitems values(1,"Mc chicken burger",394,7760291885,"Bangalore");
