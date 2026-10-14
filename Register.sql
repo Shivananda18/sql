@@ -39,6 +39,7 @@ select * from register where  not id=3 and not id=50;
 # BETWEEN OPERATOR -- select for given Range
 select * from register where  id between 3 and 6;
 
+
 # IN operator-- matches value in the list.it geves the given range.
 select * from register where mobile_Number in('0',8970327195,100); 
 
