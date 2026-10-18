@@ -103,3 +103,7 @@ select datediff('2026-10-16', '2026-10-01');
 #conversion
 SELECT CAST('-100' AS UNSIGNED);
 select convert('20' , unsigned);
+
+select * from product_info;
+
+select min(product_quantity) from product_info where product_quantity >(select min(product_quantity) from product_info);

@@ -23,6 +23,7 @@ insert into amazon_table values(6,' Speaker',1600.00,"balck","mobile","64jh",'wi
  select * from amazon_table;
  
 delete from amazon_table where id=6;
+
  #cross join Combines every row of one table with every row of another table.
 select * from product_info as pi cross join amazon_table as ama on pi.id=ama.id; 
 
@@ -50,5 +51,12 @@ select * from product_info as pi right join amazon_table as ama on  pi.product_n
         
 select * from amazon_table;
 
+# sub query
+
+select * from product_info where product_name in (select distinct  product_name from amazon_table);
+select * from amazon_table where product_name in(select distinct product_name from product_info);
+
+select max(product_price ) from amazon_table where product_price <(select max(product_price) from  amazon_table where product_price <(select  max(product_price) from amazon_table));
+select min(product_price) from amazon_table where product_price > (select min(product_price) from amazon_table where product_price > (select min(product_price) from amazon_table));
 
 
