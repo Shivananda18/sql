@@ -18,7 +18,10 @@ insert into amazon_table values(3,"HP Laptop","2000.00","merun","mobile","boat95
 insert into amazon_table values(4,"head set",5000.00,"blue",null,"446h",'wifi',"1 year",true,'2026-9-17');
 insert into  amazon_table values(5,"HP Laptop",1500.00,"balck","mobile","64jh",'wifi',"6 month",1,'2026-10-12');
 insert into  amazon_table values(6," LED Bulb",1500.00,"balck","mobile","64jh",'wifi',"6 month",1,'2026-10-12');
-insert into amazon_table values(6,' Speaker',1600.00,"balck","mobile","64jh",'wifi',"6 month",1,'2026-10-12');
+insert into amazon_table values(7,' Speaker',1600.00,"balck","mobile","64jh",'wifi',"6 month",1,'2026-10-12');
+insert into  amazon_table values(8,"HP Laptop",1500.00,"balck","mobile","64jh",'wifi',"6 month",1,'2026-10-12');
+insert into  amazon_table values(9," LED Bulb",1500.00,"balck","mobile","64jh",'wifi',"6 month",1,'2026-10-12');
+insert into amazon_table values(10,' Speaker',1600.00,"balck","mobile","64jh",'wifi',"6 month",1,'2026-10-12');
 
  select * from amazon_table;
  
