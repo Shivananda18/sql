@@ -21,7 +21,8 @@ INSERT INTO products_info VALUES (7, "Nokia", 1649.00, "1150 mAh", "128 MB", "10
 drop table products_info;
 select * from products_info;
 delete from products_info where id=3;
-
+truncate product_info;
 rename table products_info to products_Details;
 ALTER TABLE finance_info 
 DROP COLUMN is_approved;
+
